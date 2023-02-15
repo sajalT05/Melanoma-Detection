@@ -24,11 +24,11 @@
     9. Actinic keratosis
 - **Data Summary**: The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
-## Conclusions
+<!-- ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Conclusion 4 from the analysis -->
 
 
 ## Technologies Used
@@ -41,7 +41,7 @@
 
 ## Acknowledgements
 - Augmentor guide: https://augmentor.readthedocs.io/en/master/
-- Keras: ttps://keras.io/guides/
+- Keras: https://keras.io/guides/
 
 ## Contact
 Created by [@sajalT05]
