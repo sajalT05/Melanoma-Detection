@@ -1,5 +1,5 @@
-# Project Name
-> Outline a brief description of your project.
+# Melanoma Detection
+> Detecting Melanoma and other cancer category from images.
 
 
 ## Table of Contents
@@ -8,15 +8,21 @@
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
-<!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
-
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
+- **Technical**: To create a multiclass classification model using a custom convolutional neural network in tensorflow.
+- **Business** : Melanoma is a type of cancer that can be deadly if not detected early. It accounts for 75% of skin cancer deaths. A solution which can evaluate images and alert the dermatologists about the presence of melanoma has the potential to reduce a lot of manual effort needed in diagnosis.
+- **Diseases**:
+    1. Basal cell carcinoma
+    2. Dermatofibroma
+    3. Melanoma
+    4. Nevus
+    5. Seborrheic keratosis
+    6. Squamous cell carcinoma
+    7. Pigmented benign keratosis
+    8. Vascular lesion
+    9. Actinic keratosis
+- **Data Summary**: The dataset consists of 2357 images of malignant and benign oncological diseases, which were formed from the International Skin Imaging Collaboration (ISIC). All images were sorted according to the classification taken with ISIC, and all subsets were divided into the same number of images, with the exception of melanomas and moles, whose images are slightly dominant.
 
 ## Conclusions
 - Conclusion 1 from the analysis
@@ -24,29 +30,18 @@
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
 
-<!-- You don't have to answer all the questions - just the ones relevant to your project. -->
-
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
-
-<!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
+- Pandas - v1.1.3
+- Numpy - v1.22.3
+- Matplotlib - v3.3.2
+- TrnsorFlow - v2.8.0
+- PIL - v8.0.1
+- Augmentor - v0.2.9
 
 ## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
-
+- Augmentor guide: https://augmentor.readthedocs.io/en/master/
+- Keras: ttps://keras.io/guides/
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@sajalT05]
